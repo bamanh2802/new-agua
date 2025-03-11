@@ -1,0 +1,103 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+    background-color: #2b82c2; /* Dark blue background */
+    color: white;
+    padding: 14px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .header-item {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    gap: 10px;
+    font-size: 15px !important;
+  }
+  
+  .header-icon {
+    color: #ffff; /* Green-yellow for icons, matching the image */
+    font-size: 18px;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #a9d134; /* Green-yellow on hover */
+  }
+  
+  .uk-flag {
+    width: 24px;
+    height: 16px;
+    border: 1px solid white; /* Optional: adds a border like in the image */
+    border-radius: 2px;
+  }
+  .header-iconn{
+    width: 24px;
+    height: 24px;
+  }
+  /* Add these styles to your header.css file */
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.language-options {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.lang-option {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 5px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.lang-option:hover {
+  color: #333;
+}
+
+.lang-option.active {
+  font-weight: bold;
+  color: #333;
+}
+
+.lang-divider {
+  color: #ccc;
+  margin: 0 2px;
+}

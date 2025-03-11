@@ -1,0 +1,80 @@
+{
+    "HomePage": {
+        "titleHero": "Welcome to AGUA",
+        "descHero": "Experience a happy education, experience a happy life",
+        "registerHero": "REGISTER NOW",
+
+
+        "service1": "Professional",
+        "desService1": "Agua is committed to maintaining the highest standards of professionalism in all operations. From structured workflows to an experienced team, we ensure reliability and quality for every customer.",
+        "service2": "Excellent Service",
+        "desService2": "With a customer-first approach, Agua continuously strives to provide the best possible service. Customer satisfaction is the driving force that motivates us to constantly improve our service quality.",
+        "service3": "Comprehensive Privacy Policy",
+        "desService3": "Agua is fully committed to protecting customer information with strict security policies and ensures all personal data is securely stored and processed, providing complete peace of mind."
+        
+
+    },
+    "Global": {
+        "homePage": "HOMEPAGE",
+        "aboutUs": "ABOUTUS",
+        "aguaStory": "AGUA STORY",
+        "news": "NEWS",
+        "contact": "CONTACT",
+        "register": "REGISTER",
+        "location": "Ha Noi & Ho Chi Minh",
+        "email": "contact@aquaedu.com",
+        "readMore": "Read more"
+    },
+    "AboutUs": {
+        "title": "About Us",
+        "desc1": "Agua International Education is a collective of young educators committed to redefining the learning experience by making it joyful, purposeful, and student-centered.",
+        "desc2": " With the mantra “Education for happy learners,” Agua champions the idea that academic excellence and personal well-being can coexist harmoniously.",
+        "desc3": "Agua was founded with the belief that education is the foundation of development. We are committed to helping Vietnamese students access prestigious universities in USA and realize their dream of studying abroad.",
+
+
+        "title1": "Joy of learning: Learning is the best when it is joyful",
+        "descCard1":  "Members of the Aqua team all enjoy learning, and we strive to help students find happiness in their studies. Happiness and success go hand-in-hand along the way. We want our students to regard learning as a positive process in which they always stay curious and excited to know more about themselves and the world.",
+        "title2": "Creative thinking: Innovation starts with curiosity",
+        "descCard2": "We believe that creativity is at the heart of problem-solving. Our approach encourages students to think outside the box, ask questions, and explore new possibilities. Through creative thinking, students develop the skills needed to adapt to an ever-changing world.",
+        "title3": "Collaborative learning: Growing together",
+        "descCard3": "Learning is a social experience. We foster an environment where students can share ideas, work together on projects, and learn from each other's perspectives. This collaborative approach not only enhances understanding but also builds important social skills."
+    },
+
+    "Testimonials": {
+        "title": "Client Feedback",
+
+        "name1": "Maya",
+        "role1": "Restaurant Owner",
+        "feedback1": "Their consulting services are clear and informative, making it easy for students to choose the right study programs.",
+        
+        "name2": "Albus",
+        "role2": "High school student",
+        "feedback2": "Excellent customer service with quick responses to any inquiries, showing their commitment to student success.",
+        
+        "name3": "Andriya",
+        "role3": "University student",
+        "feedback3": "Agua organizes valuable workshops and events that help students expand their knowledge and connect with experts in the field."
+    },
+
+    "Contact": {
+        "title": "24/7 Feel Free To Contact"
+    },
+    "Mentor": {
+        "title": "Our Mentor",
+
+        "name1": "Ms. Thi Hoang",
+        "title1": "Mentor",
+        "quote1": "I believe it is important to give everyone the opportunity to explore all the possibilities: you are capable of more than you might think",
+
+        "name2": "Ms. Xuan (Rachel) Nguyen",
+        "title2": "Mentor",
+        "quote2": "I brought my insights from the time abroad to inspire and hopefully improve those who need me",
+
+        "name3": "Ms. Tuongvan Le",
+        "title3": "Mentor",
+        "quote3": "I've always been a curious person. When I started college, I wondered: What would my life have been like if I had grown up in Vietnam? The best way to find out was to meet peers my age who had."
+    }
+
+
+
+}

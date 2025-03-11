@@ -1,0 +1,65 @@
+.hidden-navbar {
+    position: fixed;
+    top: -60px; /* Ẩn ban đầu */
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    transition: top 0.3s ease-in-out;
+    z-index: 1000; /* Đảm bảo nằm trên tất cả */
+     /* Ẩn mặc định */
+     opacity: 0;
+
+}
+.register-btn {
+    background-color: #ffd900; /* Màu vàng */
+    color: white; /* Chữ trắng */
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #e0a800; /* Màu vàng đậm hơn khi hover */
+  }
+  
+.hidden-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.hidden-navbar .logo {
+    height: 40px;
+}
+
+.hidden-navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.hidden-navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.hidden-navbar ul{
+    margin:0;
+}
+
+.hidden-navbar .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.hidden-navbar .nav-links a:hover {
+    font-weight: 300;
+    color: #ffd900;
+
+}

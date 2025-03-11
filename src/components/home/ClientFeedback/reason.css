@@ -1,0 +1,117 @@
+
+.expertise{
+    background-color:  #2b82c2;
+    overflow-x: hidden;
+
+ }
+.expertise h4{
+    color: #0074b4;
+    font-weight: 700;
+}
+.expertise .service-card{
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 0.7rem;
+}
+
+.service-card {
+    background: #ffff; /* Nền trắng */
+    padding: 20px;
+    border-radius: 10px; /* Bo góc */
+    border: 2px solid #ddd; /* Viền */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Nhẹ nhàng nổi lên khi hover */
+    border-color: #007bff; /* Viền đổi màu khi hover */
+  }
+  
+  .service-card .content h4 {
+    font-size: 1.2rem; /* Định nghĩa kích thước chữ */
+    max-width: 400px; /* Giới hạn độ rộng của tiêu đề */
+    margin: 0 auto;
+  }
+  
+  .service-card .content p {
+    font-size: 1rem;
+    max-width: 400px; /* Gấp 2 lần max-width của h4 */
+    margin: 10px auto 0; /* Canh giữa */
+    text-align: justify; /* Canh đều nội dung */
+    color: #0074b4;
+
+  }
+  
+/* skill section starts */
+.skill{
+    background-color:  #0074b4;
+}
+.skill .heading h3{
+    position: relative;
+    margin-top: 0.5rem;
+    color: #ffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.skill .heading h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px; /* Khoảng cách giữa chữ và dấu gạch */
+    width: 50px; /* Độ dài dấu gạch */
+    height: 5px; /* Độ dày dấu gạch */
+    background-color: #ffd900;
+  }
+
+  .c-btn {
+    background-color: #ffd900; /* Màu cam */
+    color: white; /* Chữ trắng */
+    border: none; /* Xóa viền */
+    cursor: pointer; /* Con trỏ chuột thành bàn tay */
+    display: inline-block; /* Để nút hiển thị đúng */
+  }
+
+  .c-btn a {
+    color: white; /* Giữ màu chữ trắng cho link */
+    text-decoration: none; /* Xóa gạch chân */
+    display: block; /* Để toàn bộ nút có thể bấm */
+    padding: 5px 10px; /* Tạo khoảng cách cho nút */
+    font-weight: bold;
+  }
+
+
+.progress-card:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.6s;
+}
+
+.progress-card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Đảm bảo ảnh không bị tràn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+
+}
+
+.progress-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Giữ tỉ lệ ảnh và lấp đầy khung */
+}
+
+
+
+.text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.heading p{
+    font-size: 1.3rem;
+}
