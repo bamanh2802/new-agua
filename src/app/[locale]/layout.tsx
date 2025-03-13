@@ -1,4 +1,3 @@
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from '@/components/home/Navbar/navbarHidden';
 import Header from '@/components/home/layout/header';
@@ -9,7 +8,15 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
- 
+
+export const metadata = {
+  title: "Agua International Education",
+  description: "Agua International Education - Nơi giáo dục quốc tế hàng đầu.",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+
 export default async function LocaleLayout({
   children,
   params
@@ -17,17 +24,14 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{locale: string}>;
 }) {
-  // Ensure that the incoming `locale` is valid
   const {locale} = await params;
   if (!routing.locales.includes(locale as any)) {
-    console.log(locale)
+    console.log(locale);
     notFound();
   }
- 
-  // Providing all messages to the client
-  // side is the easiest way to get started
+
   const messages = await getMessages();
- 
+
   return (
     <html lang={locale}>
       <body>
