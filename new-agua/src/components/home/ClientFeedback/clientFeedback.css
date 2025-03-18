@@ -1,0 +1,49 @@
+.testimonial img:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+
+.testimonial h4{
+    color: #3f396d;
+}
+.testimonial i{
+    font-size: 2.9rem;
+    color: #fca61f;
+}
+.testimonial .nextprev-btn{
+    border: none;
+    background-color: #fff;
+}
+.prev:hover,.prev-btn:hover{
+    color:#6f34fe;
+    transform: translateX(-10px);
+    transition-duration: 1s;
+}
+.next:hover,.next-btn:hover{
+    color:#6f34fe;
+    transform: translateX(10px);
+    transition-duration: 1s;
+}
+
+/* styling modal group  */
+.btn-c{
+    margin-left: 94%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: -3%;
+}
+.btn-c i{
+    color: #fca61f;
+}
+.modal-body .content span{
+    font-size: 3rem;
+}
+.modal-body .content small{
+    font-size: 3rem;
+    color: #6f34fe;
+}
+.config{
+    cursor: pointer;
+}

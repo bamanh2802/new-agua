@@ -1,0 +1,81 @@
+{
+    "HomePage": {
+        "titleHero": "Chào mừng đến với AGUA",
+        "descHero": "Trải nghiệm giáo dục hạnh phúc, trải nghiệm cuộc sống hạnh phúc",
+        "registerHero": "ĐĂNG KÝ NGAY",
+
+        "service1": "Chuyên nghiệp",
+        "desService1": "Agua cam kết duy trì các tiêu chuẩn chuyên nghiệp cao nhất trong mọi hoạt động. Từ quy trình làm việc có cấu trúc đến đội ngũ giàu kinh nghiệm, chúng tôi đảm bảo sự tin cậy và chất lượng cho mọi khách hàng.",
+        "service2": "Dịch vụ xuất sắc",
+        "desService2": "Với phương châm đặt khách hàng lên hàng đầu, Agua không ngừng nỗ lực mang đến dịch vụ tốt nhất có thể. Sự hài lòng của khách hàng là động lực thúc đẩy chúng tôi không ngừng cải thiện chất lượng dịch vụ.",
+        "service3": "Chính sách bảo mật toàn diện",
+        "desService3": "Agua cam kết bảo vệ thông tin khách hàng với các chính sách bảo mật nghiêm ngặt, đảm bảo tất cả dữ liệu cá nhân được lưu trữ và xử lý an toàn, mang lại sự an tâm tuyệt đối."
+    },
+    "Global": {
+        "homePage": "TRANG CHỦ",
+        "aboutUs": "VỀ CHÚNG TÔI",
+        "aguaStory": "CÂU CHUYỆN AGUA",
+        "news": "TIN TỨC",
+        "contact": "LIÊN HỆ",
+        "register": "ĐĂNG KÝ",
+        "location": "Hà Nội & Hồ Chí Minh",
+        "email": "contact@aquaedu.com",
+        "readMore": "Xem thêm"
+
+    },
+    "AboutUs": {
+        "title": "Về Chúng Tôi",
+        "desc1": "Agua International Education là một tập thể những nhà giáo trẻ cam kết tái định nghĩa trải nghiệm học tập bằng cách mang lại niềm vui, mục đích và lấy học sinh làm trung tâm.",
+        "desc2": "Với phương châm “Giáo dục dành cho những người học hạnh phúc,” Agua đề cao ý tưởng rằng thành tích học tập xuất sắc và sức khỏe tinh thần có thể tồn tại hài hòa.",
+    
+        "desc3": "Agua được thành lập với niềm tin rằng giáo dục là nền tảng của sự phát triển. Chúng tôi cam kết giúp học sinh Việt Nam tiếp cận các trường đại học danh tiếng tại Mỹ và hiện thực hóa ước mơ du học.",
+
+        "title1": "Niềm vui học tập: Học tập hiệu quả nhất khi mang lại niềm vui",
+        "descCard1": "Các thành viên của đội ngũ Agua đều yêu thích việc học và chúng tôi mong muốn giúp học sinh tìm thấy niềm vui trong học tập. Hạnh phúc và thành công luôn đồng hành trên chặng đường này. Chúng tôi muốn học sinh xem việc học là một quá trình tích cực, nơi mà các em luôn tò mò và háo hức khám phá bản thân cũng như thế giới xung quanh.",
+
+        "title2": "Tư duy sáng tạo: Sáng tạo bắt đầu từ sự tò mò",
+        "descCard2": "Chúng tôi tin rằng sáng tạo là cốt lõi của việc giải quyết vấn đề. Phương pháp của chúng tôi khuyến khích học sinh suy nghĩ vượt ra khỏi khuôn khổ, đặt câu hỏi và khám phá những khả năng mới. Thông qua tư duy sáng tạo, học sinh phát triển các kỹ năng cần thiết để thích ứng với một thế giới luôn thay đổi.",
+
+        "title3": "Học tập hợp tác: Cùng nhau phát triển",
+        "descCard3": "Học tập là một trải nghiệm mang tính xã hội. Chúng tôi tạo ra một môi trường nơi học sinh có thể chia sẻ ý tưởng, làm việc cùng nhau trong các dự án và học hỏi từ góc nhìn của nhau. Cách tiếp cận hợp tác này không chỉ nâng cao sự hiểu biết mà còn giúp xây dựng những kỹ năng xã hội quan trọng."
+    },
+
+    "Testimonials": {
+    "title": "Phản hồi của khách hàng",
+
+
+    "name1": "Maya",
+    "role1": "Chủ nhà hàng",
+    "feedback1": "Dịch vụ tư vấn của họ rất rõ ràng và hữu ích, giúp sinh viên dễ dàng lựa chọn chương trình học phù hợp.",
+    
+    "name2": "Albus",
+    "role2": "Học sinh trung học",
+    "feedback2": "Dịch vụ chăm sóc khách hàng tuyệt vời với phản hồi nhanh chóng cho mọi thắc mắc, thể hiện cam kết của họ đối với sự thành công của học sinh.",
+    
+    "name3": "Andriya",
+    "role3": "Sinh viên đại học",
+    "feedback3": "Agua tổ chức các hội thảo và sự kiện bổ ích giúp sinh viên mở rộng kiến thức và kết nối với các chuyên gia trong lĩnh vực."
+    },
+
+    "Contact": {
+        "title": "Liên hệ 24/7"
+    },
+
+    "Mentor": {
+        "title": "Người cố vấn",
+        "name1": "Cô Thi Hoàng",
+        "title1": "Cố vấn",
+        "quote1": "Tôi tin rằng điều quan trọng là cho mọi người cơ hội khám phá tất cả các khả năng: bạn có thể làm được nhiều hơn những gì bạn nghĩ.",
+
+        "name2": "Cô Xuân (Rachel) Nguyễn",
+        "title2": "Cố vấn",
+        "quote2": "Tôi đã mang những hiểu biết của mình từ thời gian sống ở nước ngoài để truyền cảm hứng và hy vọng cải thiện cho những ai cần tôi.",
+
+        "name3": "Cô Tường Vân Lê",
+        "title3": "Cố vấn",
+        "quote3": "Tôi luôn là một người tò mò. Khi bắt đầu đại học, tôi tự hỏi: Cuộc sống của tôi sẽ như thế nào nếu tôi lớn lên ở Việt Nam? Cách tốt nhất để tìm ra là gặp gỡ những người bạn đồng trang lứa ở đó."
+    }
+
+
+
+}

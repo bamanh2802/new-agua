@@ -1,0 +1,25 @@
+.custom-hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: white;
+}
+
+.custom-hover:hover {
+  transform: translateY(-5px);
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Khi mở chi tiết, giữ nguyên background xanh */
+.custom-hover.active {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+.step-details {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

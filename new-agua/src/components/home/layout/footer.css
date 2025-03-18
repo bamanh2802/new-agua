@@ -1,0 +1,45 @@
+footer{
+    background-color: #add7e2;
+}
+
+footer .link-group a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+footer .link-group a:hover{
+    color: #ffd900;
+}
+.social-links button{
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 14px 15px 10px 15px;
+}
+.social-links .dribble{
+    color: #f33a7e;
+}
+.social-links button:hover{
+    color: #fff;
+    transform: translateY(-20px);
+    transition-duration: 1s;
+}
+.social-links .dribble:hover{
+    background-color: #f33a7e;
+}
+.social-links .whatsapp{
+    color: #25D366;
+}
+.social-links .whatsapp:hover{
+    background-color: #25D366;
+}
+.social-links .behance{
+    color: #255afc;
+}
+.social-links .behance:hover{
+    background-color: #255afc;
+}
