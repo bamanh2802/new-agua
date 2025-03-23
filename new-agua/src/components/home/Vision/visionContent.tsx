@@ -1,12 +1,23 @@
-import React, { useState, useEffect } from "react";
-import "./visionContent.css"; 
-import steps from "./StepCard"; // ✅ Import từ file mới
 
-const VisionContent = () => {
-  const [selectedStep, setSelectedStep] = useState(null);
+'use client'
+import React, { useState, useEffect, ReactNode } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./visionContent.css";
+import steps from "./StepCard";
+
+interface Step {
+  id: number;
+  title: string;
+  summary: string;
+  details: ReactNode;
+}
+
+const VisionContent: React.FC = () => {
+  const [selectedStep, setSelectedStep] = useState<number | null>(null);
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // 🔥 Chỉ chạy animation một lần
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
@@ -22,10 +33,9 @@ const VisionContent = () => {
         Tóm tắt quy trình tuyển dụng
       </h3>
 
-      {/* Danh sách các bước */}
       {selectedStep === null ? (
         <div className="row mt-4">
-          {steps.map((step) => (
+          {steps.map((step: Step) => (
             <div key={step.id} className="col-md-4" data-aos="fade-up">
               <div
                 className="p-4 shadow-sm rounded bg-light custom-hover"
@@ -38,14 +48,18 @@ const VisionContent = () => {
           ))}
         </div>
       ) : (
-        // Hiển thị nội dung chi tiết của bước đã chọn
         <div className="step-details">
-          <h4 className="fw-bold">{steps.find((s) => s.id === selectedStep).title}</h4>
-          {steps.find((s) => s.id === selectedStep).details}
-
-          <button className="btn btn-primary mt-3" onClick={() => setSelectedStep(null)}>
-            Quay lại
-          </button>
+          {steps.map((step: Step) =>
+            step.id === selectedStep ? (
+              <div key={step.id}>
+                <h4 className="fw-bold">{step.title}</h4>
+                {step.details}
+                <button className="btn btn-primary mt-3" onClick={() => setSelectedStep(null)}>
+                  Quay lại
+                </button>
+              </div>
+            ) : null
+          )}
         </div>
       )}
 

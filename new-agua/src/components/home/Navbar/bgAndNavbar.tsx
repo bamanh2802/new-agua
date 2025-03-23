@@ -39,7 +39,7 @@ const BgAndNavbar = () => {
         <ul className="nav">
           <li className="nav-item"><Link className="nav-link" href={`/${locale}/`}>{g("homePage")}</Link></li>
           <li className="nav-item"><Link className="nav-link" href={`/${locale}/aboutus`}>{g("aboutUs")}</Link></li>
-          <li className="nav-item"><Link className="nav-link" href={`/${locale}/agua-story`}>{g("aguaStory")}</Link></li>
+          <li className="nav-item"><Link className="nav-link" href={`/${locale}/aguastory`}>{g("aguaStory")}</Link></li>
           <li className="nav-item"><Link className="nav-link" href={`/${locale}/news`}>{g("news")}</Link></li>
           <li className="nav-item"><Link className="nav-link" href={`/${locale}/contact`}>{g("contact")}</Link></li>
         </ul>

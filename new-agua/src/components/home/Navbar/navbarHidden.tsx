@@ -41,13 +41,13 @@ const Navbar: React.FC = () => {
             <Link href={`/${locale}/aboutus`}>{g("aboutUs")}</Link>
           </li>
           <li>
-            <Link href={`/${locale}`}>{g("aguaStory")}</Link>
+            <Link href={`/${locale}/aguastory`}>{g("aguaStory")}</Link>
           </li>
           <li>
             <Link href={`/${locale}`}>{g("news")}</Link>
           </li>
           <li>
-            <Link href={`/${locale}`}>{g("contact")}</Link>
+            <Link href={`/${locale}/contact`}>{g("contact")}</Link>
           </li>
         </ul>
         <Link href={`/${locale}`} className="register-btn">

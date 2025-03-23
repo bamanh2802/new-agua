@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const ContactForm = () => {
+const ContactForm: React.FC = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Thời gian hiệu ứng (1s)
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -10,18 +12,17 @@ const ContactForm = () => {
       <div className="row align-items-center">
         {/* Phần Contact Us */}
         <div className="col-md-5" data-aos="fade-right">
-        <h2 className="fw-bold fs-2 mb-4">Contact Us</h2>
-        <p className="fs-4 d-flex align-items-center">
-              <i className="bi bi-geo-alt text-primary display-8 me-3"></i> Viet Nam
-            </p>
-            <p className="fs-4 d-flex align-items-center">
-              <i className="bi bi-envelope text-primary display-8 me-3"></i> contact@aguaedu.com
-            </p>
-            <p className="fs-4 d-flex align-items-center">
-              <i className="bi bi-globe text-primary display-8 me-3"></i> aguaedu.com
-            </p>
-         </div>
-
+          <h2 className="fw-bold fs-2 mb-4">Contact Us</h2>
+          <p className="fs-4 d-flex align-items-center">
+            <i className="bi bi-geo-alt text-primary display-8 me-3"></i> Viet Nam
+          </p>
+          <p className="fs-4 d-flex align-items-center">
+            <i className="bi bi-envelope text-primary display-8 me-3"></i> contact@aguaedu.com
+          </p>
+          <p className="fs-4 d-flex align-items-center">
+            <i className="bi bi-globe text-primary display-8 me-3"></i> aguaedu.com
+          </p>
+        </div>
 
         {/* Phần Form */}
         <div className="col-md-7" data-aos="fade-left">
@@ -37,7 +38,7 @@ const ContactForm = () => {
               <input type="tel" className="form-control" placeholder="Mobile Number" />
             </div>
             <div className="mb-3">
-              <textarea className="form-control" rows="3" placeholder="Message"></textarea>
+              <textarea className="form-control" rows={3} placeholder="Message"></textarea>
             </div>
             <button type="submit" className="btn btn-warning w-100 fw-bold">Send</button>
           </form>

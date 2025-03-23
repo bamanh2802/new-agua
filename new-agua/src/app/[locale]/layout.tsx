@@ -3,6 +3,7 @@ import Navbar from '@/components/home/Navbar/navbarHidden';
 import Header from '@/components/home/layout/header';
 import BgAndNavbar from '@/components/home/Navbar/bgAndNavbar';
 import Footer from '@/components/home/layout/footer';
+import './config.css'
 
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
